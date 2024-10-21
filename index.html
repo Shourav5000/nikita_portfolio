@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shourav Mandal - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nikita Dey</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Activities</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nikita Dey</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills"onclick="toggleMenu()">Activities</a></li>
+          <li><a href="#awards" onclick="toggleMenu()">Awards</a></li>
+          <li><a href="#leadership" onclick="toggleMenu()">Leadership</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpg" alt="Shourav Mandal profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nikita Dey</h1>
+        <p class="section__text__p2">Student at UCONN</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume - Nikita.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https:https://www.linkedin.com/in/nikita-dey-334227226/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Intern/EMT, Rotating</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree (Physiology and Neurobiology)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am currently a senior at the University of Connecticut, pursuing a Bachelor of Science in Physiology and Neurobiology. My academic background is complemented by hands-on experience volunteering at medical offices, where I gained valuable insights into patient care and clinical operations.
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Notetaker at the University of Connecticut</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Hartford Campus for the Center for Students with Disabilities</h3>
+                  <p>
+                    Provided detailed hand-written lecture notes for students with disabilities, ensuring timely access to academic materials via an online platform to support their learning.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Intern, Rotating Summer 2017</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Reed Smith Law Firm, Consilio LLC, Cahill Gordon & Reindel LLP, Queens Legal Aid (Juvenile Rights)</h3>
+                  <p>Gained experience in legal processes like mergers and acquisitions, depositions, oral arguments, and trials, strengthening my understanding of regulatory and procedural frameworks.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">EMT, Rotation</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>BronxCare Health System, Summer 2023</h3>
+                  <p>Provided emergency care to patients in the Bronx, performing trauma and medical assessments, monitoring blood glucose levels, controlling hemorrhages, and safely transporting patients using stretchers.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Check Out My</p>
+        <h1 class="title">Activities</h1>
+        <div class="skills-details-container">
+          <div class="skill-category">
+            <h2 class="skills-sub-title">Summer Law Institute @ (St. John’s ) Law School</h2>
+            <ul class="skills-list">
+              <p>Participated in an intensive five-week course that focused on the
+                US Criminal Justice System & Trial Process. Completed exams based
+                on law content and a presentation on corporate law.</p>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h2 class="skills-sub-title">Constitutional Debate Program, Legal Outreach</h2>
+            <ul class="skills-list">
+              <p>Debated and grappled with complex constitutional law issues before a
+                panel of lawyers and law students while competing against other NYC students.</p>
+            </ul>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h2 class="skills-sub-title">University of Connecticut, Pre-Med Society</h2>
+            <ul class="skills-list">
+              <p>Attended presentations by medical schools on admissions processes and student experiences, and participated in hands-on suture clinic events to develop clinical skills.</p>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h2 class="skills-sub-title">University of Connecticut-Hartford, Pre-Health Organization</h2>
+            <ul class="skills-list">
+              <p>Attends meetings to guide pre-medical students, offering advice on the medical school application process, and provides information on the Pre-Health Organization to new students at involvement fairs.</p>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h2 class="skills-sub-title">University of Connecticut, Medical Clinic Club</h2>
+          <ul class="skills-list">
+            <p>Volunteers at a medical clinic, assisting in patient navigation and providing support to enhance clinic operations and patient care.</p>
+          </ul>
+        </div>
+      </div>
+      </section>  
+      <section id="leadership">
+        <p class="section__text__p1">Leadership</p>
+        <h1 class="title">Leadership Experience</h1>
+        <div class="leadership-container">
+          <div class="leadership-card">
+            <h2 class="leadership-title">Dean Council</h2>
+            <p class="leadership-date">09/2016 - 06/2017</p>
+          </div>
+          <div class="leadership-card">
+            <h2 class="leadership-title">Leader of the Advertising Team</h2>
+            <p class="leadership-organization">Hindu Student Council, St. John’s University</p>
+            <p class="leadership-date">07/2018 - 06/2020</p>
+          </div>
+        </div>
+      </section>          
+      <section id="awards">
+        <p class="section__text__p1">Achievements</p>
+        <h1 class="title">Awards</h1>
+        <div class="awards-container">
+          <div class="award-card">
+            <h2 class="award-title">Young Debaters Competition</h2>
+            <p class="award-date">Winner (06/03/2017)</p>
+          </div>
+          <div class="award-card">
+            <h2 class="award-title">Arts Engage Initiative Visual Art Showcase</h2>
+            <p class="award-date">1st Place Winner (05/24/2017)</p>
+          </div>
+          <div class="award-card">
+            <h2 class="award-title">Seasonal Queens Borough Art Postcard</h2>
+            <p class="award-date">Winner (06/14/2017)</p>
+          </div>
+          <div class="award-card">
+            <h2 class="award-title">Christine Diefenbach Art Medal</h2>
+            <p class="award-date">Winner (06/21/2017)</p>
+          </div>
+          <div class="award-card">
+            <h2 class="award-title">Debate Winner - City of Arendelle vs. Idina Menzel</h2>
+            <p class="award-date">Equal Protection Clause 14th Amendment (02/08/2019)</p>
+          </div>
+          <div class="award-card">
+            <h2 class="award-title">Debate Winner - John Doe vs. The State of Utahpia</h2>
+            <p class="award-date">8th Amendment Cruel and Unusual Punishment (04/18/2020)</p>
+          </div>
+          <div class="award-card">
+            <h2 class="award-title">Championship Debate Competition</h2>
+            <p class="award-date">2nd Place (05/05/2020)</p>
+          </div>
+        </div>
+      </section>       
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:deynikita01@gmail.com">deynikita01@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/nikita-dey-334227226/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Activities</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Nikita Dey. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
